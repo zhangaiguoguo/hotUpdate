@@ -1,0 +1,21 @@
+@import './b.css';
+@import './c.css';
+@import url(./a/a.css);
+
+div {
+  color:red;
+  background: url(../images/inSampling2.svg) no-repeat 50% 50%;
+  /* background-color: #e43141; */
+}
+
+button{
+  outline: none;
+  border: 1px solid #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
